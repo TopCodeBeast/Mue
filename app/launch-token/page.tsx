@@ -154,7 +154,7 @@ const LaunchToken = () => {
     <section  className='launch-Token'>
       <div className="flex launch">
         <button className="btn-secondary">0x7 bought 10 ETH $KURT</button>
-        <button className="btn-primary w-[200px]">Login</button>
+        <Link href="/login"><button className="btn-primary w-[200px] text-black">Login</button></Link>
       </div>
       <div className="flex items-center justify-center mt-4 mb-4 text-2xl font-bold hover:text-[#57d7cc] transition">
         <Link href="/" className="no-underline text-[#131313] hover:text-[#57d7cc] transition">

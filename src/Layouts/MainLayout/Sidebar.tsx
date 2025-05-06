@@ -57,7 +57,7 @@ const SideBar = () => {
             </Link>
           </div>
           <div className='sidebar-btn'>
-            <Link className='no-underline text-black hover:text-gray-800' href='/#'>
+            <Link className='no-underline text-black hover:text-gray-800' href='/product'>
               <Image src={"/images/newproduct/sidebar-earn.png"} alt='icon' width={30} height={30} />
               Earn
             </Link>

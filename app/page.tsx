@@ -9,7 +9,8 @@ const Home = () => {
       <div className="flex flex-col items-center justify-around p-2 w-full h-full md:flex-row">
         <button className="btn-third w-[70%] h-full md:w-[30%] mt-1 mb-1">0x7 bought 10 ETH $KURT</button>
         <button className="btn-secondary w-[70%] h-full md:w-[30%] mt-1 mb-1">0x7 bought 10 ETH $KURT</button>
-        <button className="btn-primary w-[70%] h-full md:w-[30%] mt-1 mb-1">Login</button>
+        {/* <button className="btn-primary w-[70%] h-full md:w-[30%] mt-1 mb-1 text-black">Login</button> */}
+        <Link className="btn-primary w-[70%] h-full md:w-[30%] mt-1 mb-1 text-black row text-center no-underline" href="/login"><button>Login</button></Link>
       </div>
       <div className="flex flex-col items-center justify-around p-2 md:flex-row">
         <input
