@@ -1,24 +1,25 @@
 'use client'
 import MainLayout from "@/src/Layouts/MainLayout/MainLayout";
 import Product from "@/src/Components/Product/Product";
-import './landing.scss';
+import Link from "next/link";
 
 const Home = () => {
   return (
     <section>
-      <div className="flex landing-top">
-        <button className="btn-third">0x7 bought 10 ETH $KURT</button>
-        <button className="btn-secondary">0x7 bought 10 ETH $KURT</button>
-        <button className="btn-primary">Login</button>
+      <div className="flex flex-col items-center justify-around p-2 w-full h-full md:flex-row">
+        <button className="btn-third w-[70%] h-full md:w-[30%] mt-1 mb-1">0x7 bought 10 ETH $KURT</button>
+        <button className="btn-secondary w-[70%] h-full md:w-[30%] mt-1 mb-1">0x7 bought 10 ETH $KURT</button>
+        <button className="btn-primary w-[70%] h-full md:w-[30%] mt-1 mb-1">Login</button>
       </div>
-      <div className="flex landing-second">
+      <div className="flex flex-col items-center justify-around p-2 md:flex-row">
         <input
+          className="w-[70%] bg-[#3dadff] border-4 border-[#017bd3] rounded-[10px] text-[16px] shadow-[0_2px_4px_rgba(0,0,0,0.1)] outline-none transition-all duration-300 ease-in-out mb-1 mt-1 md:w-[60%]"
           type="text"
           placeholder="Search for token..."
           />
-        <button className="btn-primary">Search</button>
+        <button className="btn-primary w-[70%] md:w-[25%] mt-1 mb-1">Search</button>
       </div>
-      <div className="product-section">
+      <div className="flex flex-wrap justify-center items-center">
         <Product />
         <Product img = '/images/newproduct/product2.png' info1="Cpt.Smith" info2="$CTP" price1="$15k" price2="+500%" />
         <Product img = '/images/newproduct/product3.png' info1="Slow Pulp" info2="$PULP" price1="$150k" price2="-25%" />

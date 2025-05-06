@@ -7,8 +7,8 @@ export const projectId = '6864d786-bf83-4e32-86e8-310e5329c759';
 if (!projectId) throw new Error('Project ID is not defined');
 
 export const metadata = {
-  name: 'MUE',
-  description: 'MUE',
+  name: 'WorldMalls',
+  description: 'WorldMalls',
   url: 'https://web3modal.com', // origin must match your domain & subdomain
   icons: ['https://avatars.githubusercontent.com/u/37784886'],
 };

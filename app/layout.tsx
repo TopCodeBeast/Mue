@@ -11,8 +11,8 @@ import { Providers } from "./provider";
 import Head from 'next/head';
 
 export const metadata: Metadata = {
-  title: "MUE",
-  description: "MUE",
+  title: "Marketplace - WorldOfMalls",
+  description: "Marketplace - WorldOfMalls",
 };
 
 export default function RootLayout({

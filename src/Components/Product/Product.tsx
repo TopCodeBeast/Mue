@@ -1,10 +1,12 @@
 import React from 'react';
-import './product.scss';
 import Image from 'next/image';
+import Link from 'next/link';
+
+import './product.scss';
 
 const Product = (props: any) => {
   return (
-    <div className='product'>
+    <div className='no-underline product'>
       <div className='product-img flex justify-center'>
         <Image src={props.img ? props.img : '/images/newproduct/product1.png'} alt='product' width={100} height={100}/>
       </div>

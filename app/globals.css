@@ -11,9 +11,7 @@
 	--secondary-color : #F44336;
 	--third-color     : #FFC107;
 	--green-color			: #8BC34A;
-	--violet-color	  : #9515f8;
-	--green-bg				: #91f7a4;
-	--lightblue-color : #B9BCFF;
+	--green-bg				: #ddf8e2;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -50,12 +48,14 @@ body {
 }
 
 .sidebar-btn {
-	display: flex;
-	flex-direction: row;
-	align-items: center;
-	justify-content: start;
-	font-size: 24px;
-	margin: 3px;
+  a {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: start;
+    font-size: 24px;
+    margin: 3px;
+  }
 	img {
 		margin-right: 10px;
 	}

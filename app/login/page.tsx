@@ -2,8 +2,6 @@
 import React, { useState } from 'react';
 import MainLayout from "@/src/Layouts/MainLayout/MainLayout";
 
-import './login.scss';
-
 const Login = () => {
 
   return (

@@ -1,6 +1,4 @@
 .product {
-  // display: flex;
-  // flex-direction: column;
   align-items: center;
   justify-content: center;
   background-color: var(--third-color);
@@ -11,13 +9,20 @@
   margin: 10px;
   p {
     margin-bottom: 0px !important;
+    text-decoration: none;
   }
 }
-.produt-image {}
+.product-img {
+  height: 100px;
+  img {
+    object-fit: cover;
+  }
+}
 
 .product-info {}
 
 .product-price {
+  text-decoration: none;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
